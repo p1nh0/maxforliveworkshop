@@ -28,7 +28,7 @@ To download the contents press the *Download as .zip* button above.
 
 [Advanced Audio Analysis](http://www.e--j.com/index.php/what-is-zsa-descriptors/)
 
-[My own library...it has miscellaneous stuf](https://github.com/p1nh0/TA-Library)
+[My own library...it has miscellaneous stuff](https://github.com/p1nh0/TA-Library)
 
 ### Support or Contact
 tiago.a.s.angelo@gmail.com
