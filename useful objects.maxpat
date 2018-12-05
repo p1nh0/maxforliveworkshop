@@ -8,7 +8,7 @@
 			"architecture" : "x64"
 		}
 ,
-		"rect" : [ -1440.0, 272.0, 1440.0, 832.0 ],
+		"rect" : [ 0.0, 45.0, 1280.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -32,12 +32,36 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 870.0, 79.0, 43.0, 18.0 ],
+					"text" : "presets"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 762.0, 68.0, 100.0, 40.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-89",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.0, 431.157898, 78.0, 18.0 ],
-					"presentation_rect" : [ 359.0, 428.157898, 0.0, 0.0 ],
 					"text" : "output X bangs"
 				}
 
@@ -66,7 +90,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.0, 389.157898, 153.0, 18.0 ],
-					"presentation_rect" : [ 388.5, 395.157898, 0.0, 0.0 ],
 					"text" : "select data from a specific outlet"
 				}
 
@@ -95,7 +118,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.5, 360.157898, 174.0, 18.0 ],
-					"presentation_rect" : [ 371.5, 368.0, 0.0, 0.0 ],
 					"text" : "block or pass data to a specific outlet"
 				}
 
@@ -124,7 +146,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.5, 328.0, 122.0, 18.0 ],
-					"presentation_rect" : [ 373.5, 337.0, 0.0, 0.0 ],
 					"text" : "route input data to output"
 				}
 
@@ -153,7 +174,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.5, 296.0, 151.0, 18.0 ],
-					"presentation_rect" : [ 370.0, 306.947357, 0.0, 0.0 ],
 					"text" : "select numbers to trigger bangs"
 				}
 
@@ -182,7 +202,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.0, 261.947357, 107.0, 18.0 ],
-					"presentation_rect" : [ 389.0, 271.105255, 0.0, 0.0 ],
 					"text" : "split number by range"
 				}
 
@@ -197,7 +216,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 173.526306, 59.0, 18.0 ],
-					"presentation_rect" : [ 67.0, 175.105255, 0.0, 0.0 ],
 					"text" : "MIDI notes"
 				}
 
@@ -212,7 +230,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 127.0, 369.157898, 158.0, 18.0 ],
-					"presentation_rect" : [ 127.0, 372.0, 0.0, 0.0 ],
 					"text" : "parse and format MIDI messages"
 				}
 
@@ -227,7 +244,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 154.0, 431.157898, 49.0, 18.0 ],
-					"presentation_rect" : [ 154.0, 432.0, 0.0, 0.0 ],
 					"text" : "note info"
 				}
 
@@ -256,7 +272,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 239.105255, 76.0, 18.0 ],
-					"presentation_rect" : [ 72.0, 239.0, 0.0, 0.0 ],
 					"text" : "control change"
 				}
 
@@ -394,7 +409,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 74.0, 121.842102, 68.0, 18.0 ],
-					"presentation_rect" : [ 70.0, 131.0, 0.0, 0.0 ],
 					"text" : "filter note-Off"
 				}
 
@@ -410,7 +424,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 318.0, 50.0, 154.0, 22.0 ],
-					"presentation_rect" : [ 192.0, 52.0, 0.0, 0.0 ],
 					"text" : "Max—Numbers & Data"
 				}
 
@@ -453,8 +466,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 552.0, 570.473694, 125.0, 40.0 ],
-					"presentation_rect" : [ 917.0, 84.473694, 0.0, 0.0 ],
+					"patching_rect" : [ 556.0, 544.473694, 125.0, 40.0 ],
 					"text" : "low-level DSP capable of processing sample by sample "
 				}
 
@@ -583,7 +595,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 519.0, 570.473694, 33.0, 18.0 ],
+					"patching_rect" : [ 523.0, 544.473694, 33.0, 18.0 ],
 					"text" : "gen~"
 				}
 
@@ -598,8 +610,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.0, 532.0, 100.0, 22.0 ],
-					"presentation_rect" : [ 881.0, 46.0, 0.0, 0.0 ],
+					"patching_rect" : [ 523.0, 506.0, 100.0, 22.0 ],
 					"text" : "GEN~"
 				}
 
@@ -614,7 +625,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 391.0, 230.105255, 146.0, 18.0 ],
-					"presentation_rect" : [ 56.0, 260.736847, 0.0, 0.0 ],
 					"text" : "increment/decrement numbers"
 				}
 
@@ -643,7 +653,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 354.0, 191.894745, 232.0, 18.0 ],
-					"presentation_rect" : [ 64.0, 220.315796, 0.0, 0.0 ],
 					"text" : "\"metronome\" (generate bangs at regular intervals)"
 				}
 
@@ -672,7 +681,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.0, 154.473694, 151.0, 18.0 ],
-					"presentation_rect" : [ 68.5, 190.684204, 0.0, 0.0 ],
 					"text" : "generate random-step numbers"
 				}
 
@@ -701,7 +709,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 350.5, 121.842102, 212.0, 18.0 ],
-					"presentation_rect" : [ 53.0, 154.842102, 0.0, 0.0 ],
 					"text" : "generate random numbers without repetitions"
 				}
 
@@ -730,7 +737,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.0, 90.0, 128.0, 18.0 ],
-					"presentation_rect" : [ 60.0, 124.0, 0.0, 0.0 ],
 					"text" : "generate random numbers"
 				}
 
@@ -773,7 +779,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.75, 675.736816, 224.0, 18.0 ],
-					"presentation_rect" : [ 510.5, 230.315796, 0.0, 0.0 ],
 					"text" : "multiple filters (cascaded series of biquad filters)"
 				}
 
@@ -802,7 +807,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.75, 607.473694, 76.0, 18.0 ],
-					"presentation_rect" : [ 461.5, 161.473694, 0.0, 0.0 ],
 					"text" : "crossover filter"
 				}
 
@@ -831,7 +835,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 289.75, 544.473694, 119.0, 18.0 ],
-					"presentation_rect" : [ 472.5, 139.473694, 0.0, 0.0 ],
 					"text" : "single-pole lowpass filter"
 				}
 
@@ -846,7 +849,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 234.75, 544.473694, 52.0, 18.0 ],
-					"presentation_rect" : [ 417.5, 139.473694, 0.0, 0.0 ],
 					"text" : "onepole~"
 				}
 
@@ -875,7 +877,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 298.75, 804.0, 117.0, 18.0 ],
-					"presentation_rect" : [ 496.0, 249.526306, 0.0, 0.0 ],
 					"text" : "resonant bandpass filter"
 				}
 
@@ -904,7 +905,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 398.75, 773.0, 62.0, 18.0 ],
-					"presentation_rect" : [ 494.0, 218.526306, 0.0, 0.0 ],
 					"text" : "comb filters"
 				}
 
@@ -919,7 +919,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 234.75, 773.0, 73.0, 18.0 ],
-					"presentation_rect" : [ 421.0, 218.526306, 0.0, 0.0 ],
 					"text" : "comb~"
 				}
 
@@ -934,7 +933,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 312.25, 740.0, 57.0, 18.0 ],
-					"presentation_rect" : [ 499.0, 197.684204, 0.0, 0.0 ],
 					"text" : "comb filter"
 				}
 
@@ -963,7 +961,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 280.75, 575.473694, 110.0, 18.0 ],
-					"presentation_rect" : [ 464.5, 151.842102, 0.0, 0.0 ],
 					"text" : "resonant lowpass filter"
 				}
 
@@ -992,7 +989,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 298.75, 708.157898, 92.0, 18.0 ],
-					"presentation_rect" : [ 484.5, 119.0, 0.0, 0.0 ],
 					"text" : "state-variable filter"
 				}
 
@@ -1050,7 +1046,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 234.75, 506.0, 100.0, 22.0 ],
-					"presentation_rect" : [ 421.0, 50.0, 0.0, 0.0 ],
 					"text" : "MSP — Filters"
 				}
 
@@ -1065,7 +1060,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 53.75, 546.0, 98.0, 18.0 ],
-					"presentation_rect" : [ 240.0, 88.842102, 0.0, 0.0 ],
 					"text" : "sinusoidal oscillator"
 				}
 
@@ -1094,7 +1088,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.75, 577.842102, 98.0, 18.0 ],
-					"presentation_rect" : [ 246.0, 122.684204, 0.0, 0.0 ],
 					"text" : "sawtooth oscillators"
 				}
 
@@ -1109,7 +1102,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 59.75, 609.684204, 94.0, 18.0 ],
-					"presentation_rect" : [ 244.0, 155.526306, 0.0, 0.0 ],
 					"text" : "square oscillator"
 				}
 
@@ -1124,7 +1116,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 59.75, 641.526306, 94.0, 18.0 ],
-					"presentation_rect" : [ 251.0, 187.736847, 0.0, 0.0 ],
 					"text" : "triangular oscillator"
 				}
 
@@ -1139,7 +1130,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 53.75, 679.736816, 61.0, 18.0 ],
-					"presentation_rect" : [ 243.0, 224.947357, 0.0, 0.0 ],
 					"text" : "white noise"
 				}
 
@@ -1154,7 +1144,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.75, 717.947388, 56.0, 18.0 ],
-					"presentation_rect" : [ 238.0, 263.789459, 0.0, 0.0 ],
 					"text" : "pink noise"
 				}
 
@@ -1169,7 +1158,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 49.75, 749.789429, 131.0, 18.0 ],
-					"presentation_rect" : [ 237.5, 295.0, 0.0, 0.0 ],
 					"text" : "band-limited random signal"
 				}
 
